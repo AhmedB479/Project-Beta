@@ -30,6 +30,7 @@ body{
 .header ul li a{
     text-decoration: none;
     color: #fff;
+    opacity: 1;
     text-transform: uppercase;
     font-size: 20px;
     padding: 5px 10px;
@@ -38,8 +39,20 @@ body{
 .header ul li a:hover{
     background: #fff;
     opacity: 1;
-    transition: 1s;
+    transition: 0.35s;
     color: #000;
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075)
+  ;
+}
+.header ul li a:not(:hover){
+    opacity: 1;
+    transition: 0.5s;
+    color: white;
 }
 .header h2{
     text-align: center;
@@ -100,13 +113,52 @@ section{
     border-radius: 25px;
     padding-inline: 2%;
     font-size: 64px;
-}
-.about {
-   box-shadow:
+    box-shadow:
       0 1px 1px hsl(0deg 0% 0% / 0.075),
       0 2px 2px hsl(0deg 0% 0% / 0.075),
       0 4px 4px hsl(0deg 0% 0% / 0.075),
       0 8px 8px hsl(0deg 0% 0% / 0.075),
-      0 16px 16px hsl(0deg 0% 0% / 0.075)
-    ;
-  }
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.portfolio{
+    height: 75vh;
+    width: 85%;
+    background-color: white;
+    border-radius: 25px;
+    padding-inline: 2%;
+    font-size: 64px;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.services{
+    height: 75vh;
+    width: 85%;
+    background-color: white;
+    border-radius: 25px;
+    padding-inline: 2%;
+    font-size: 64px;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.contact{
+    height: 75vh;
+    width: 85%;
+    background-color: white;
+    border-radius: 25px;
+    padding-inline: 2%;
+    font-size: 64px;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
